@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px
+        }
+        nav{
+            background-color: rgb(143, 141, 141);
+            padding: 2px;
+            text-align: center;
+            box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.247);
+            border-radius: 10px 40px;
+        }
+        nav > a{
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:hover{
+            text-decoration: underline;
+        }
+        article{
+            background-color: lightgrey;
+            padding: 5px;
+            border-radius: 10px 40px
+        }
+        article > aside{
+            background-color: rgb(168, 166, 166);
+            padding: 1px;
+            text-align: center;
+            border-radius: 10px 40px
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 40px;
+        }
+        #assuntos{
+            text-align: center;
+            padding: 5px;
+            margin-bottom: 5px;
+            background-color: lightgrey;
+            border-radius: 10px 40px
+        }
+        #assuntos > a{
+            text-decoration: none;
+            font-weight: bold;
+            margin-right: 30px;
+            color: black;
+        }
+        #assuntos > a:hover{
+            text-decoration: underline;
+        }
+        span{
+            color: rgb(146, 146, 2);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        footer > p{
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!--CABEÇALHO-->
+        <h1>Meu site</h1>
+        <nav>
+            <!--BARRA DE NAVEGAÇÃO-->
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <!--CORPO-->
+        <section id="assuntos">
+            <a href="#">Esportes</a>
+            <a href="#">Política</a>
+            <a href="#">Tecnologia</a>
+            <a href="#">Saúde</a>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o <span>Brasil</span></h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis dignissimos impedit odio, repellat placeat maxime distinctio facere id explicabo vero, consectetur, dolor quibusdam vel quisquam repudiandae qui dolorum laborum facilis.</p>
+                <aside>
+                    <p>Atigo escrito por André Henrique</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <!--RODAPÉ-->
+        <p>Desenvolvido por André Meliunas</p>
+    </footer>
+</body>
+</html>
